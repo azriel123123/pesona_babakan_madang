@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:pesona_babakan_madang/model/tempat_wisata.dart';
 import 'package:pesona_babakan_madang/ui/detail.screen.dart';
 
-class MainScreen extends StatelessWidget {
+class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
 
+  @override
+  State<MainScreen> createState() => _MainScreenState();
+}
+
+class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
